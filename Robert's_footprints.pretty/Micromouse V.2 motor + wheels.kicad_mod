@@ -1,0 +1,93 @@
+(footprint "Micromouse V.2 motor + wheels"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Faulhaber 1717T012SRIEH2-4096 +  Kyosho MZW2-20B - Mini-Z 8.5mm Wide High Grip Tire Set, 20 shore outline")
+	(property "Reference" "REF**"
+		(at -0.3 -33.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0d2c898-577e-40ca-b482-d469537a11eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Motor + wheels"
+		(at -0.3 -31.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "397c56d2-ecd2-4c08-ada1-d8a2d82c4b8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbbe57c1-8115-465b-a1b5-38ea3d6f472c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e9b130c-2372-43ff-a251-a670da391468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 11 -24)
+		(end 19.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "1a709869-8e76-4496-8925-7750f8292670")
+	)
+	(fp_rect
+		(start 11 1)
+		(end 19.5 24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "83487345-29ea-4bee-b665-15c5feca14d2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3 -30.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5d1b915e-444b-404e-a428-b06364a4ff64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
