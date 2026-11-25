@@ -78,6 +78,126 @@
 		(uuid "12a64745-cdb3-4626-a7fb-eceafa33f3ab")
 	)
 	(fp_line
+		(start -20 -7.5)
+		(end -13 -7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7db8ef1d-dafe-488e-83de-b085e055077b")
+	)
+	(fp_line
+		(start -20 7.5)
+		(end -20 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8a01133-aa6f-42b0-9dca-a9045c9f247e")
+	)
+	(fp_line
+		(start -13 -14)
+		(end -8 -14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e124fae5-65ee-4036-93c1-636aa31a8510")
+	)
+	(fp_line
+		(start -13 -7.5)
+		(end -13 -14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "80693273-792d-4ab5-afbd-5ad395e03b95")
+	)
+	(fp_line
+		(start -13 7.5)
+		(end -20 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "65110840-b545-4712-a8ad-8bb7c1361ce4")
+	)
+	(fp_line
+		(start -13 13.9)
+		(end -13 7.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfae6e6b-538c-40f7-9240-c2f1c78da77a")
+	)
+	(fp_line
+		(start -8 -20)
+		(end 0 -20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef63f164-67e3-4751-9cc1-596e94cf3fd5")
+	)
+	(fp_line
+		(start -8 -14)
+		(end -8 -20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cb9886d-764b-4975-8645-186f4eb0da3d")
+	)
+	(fp_line
+		(start -8 13.9)
+		(end -13 13.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "badc5c1a-2b92-489e-97d7-756476314020")
+	)
+	(fp_line
+		(start -8 20)
+		(end -8 13.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "02b13f9e-7fc6-40fd-9b8c-ee9278fc3233")
+	)
+	(fp_line
+		(start 0 -20)
+		(end 0 20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e81a59f8-e562-41e1-bd53-9eda2af11217")
+	)
+	(fp_line
+		(start 0 20)
+		(end -8 20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5754665e-bd56-4204-a0e3-f05b4500efa6")
+	)
+	(fp_line
 		(start 0 0)
 		(end 0 -12)
 		(stroke
@@ -526,7 +646,7 @@
 	)
 	(fp_line
 		(start -8 20)
-		(end 1.5 20)
+		(end 1.4 20)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -640,16 +760,16 @@
 	)
 	(pad "" thru_hole circle
 		(at -4 -17)
-		(size 5 5)
-		(drill 3)
+		(size 3 3)
+		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "86ef15c6-fa18-4ceb-a516-9b7aad648106")
 	)
 	(pad "" thru_hole circle
 		(at -4 17)
-		(size 5 5)
-		(drill 3)
+		(size 3 3)
+		(drill 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fb9fea4d-5541-454e-8e8f-355a3cb25dac")
